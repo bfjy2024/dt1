@@ -1,17 +1,17 @@
 body {
-background-color: #020202;
-  margin: 0;
-overflow: hidden;
+    background-color: #020202; /* 设置整个页面的背景颜色为深灰色 */
+    margin: 0;                 /* 移除body默认的外边距 */
+    overflow: hidden;          /* 隐藏任何超出body的内容，防止滚动条出现 */
 }
 
-#container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  height: 100% !important;
-
+#container {
+    display: flex;             /* 使用Flexbox布局 */
+    justify-content: center;   /* 沿主轴（水平方向）居中子元素 */
+    align-items: flex-start;   /* 沿交叉轴（垂直方向）对齐子元素到起始位置 */
+    height: 100% !important;   /* 设置容器的高度为100%，并强制执行（覆盖其他可能的规则） */
 }
-#canvas3d{
-  width: 100% !important;
-  height: 100% !important;
+
+#canvas3d {
+    width: 100% !important;    /* 设置canvas元素宽度为100%，并强制执行 */
+    height: 100% !important;   /* 设置canvas元素高度为100%，并强制执行 */
 }
